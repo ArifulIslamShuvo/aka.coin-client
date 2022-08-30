@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player'
 
 const WhatIsAkacoin = () => {
     return (
-        <div className='container'>
+        <div className='container' id='whatisako'>
             <h2 style={{ fontSize: '48px' }} className='text-neutral font-bold text-center p-4'>What Is Akacoin?</h2>
             <div data-aos="fade-up"
                 data-aos-easing="ease-out-cubic"
