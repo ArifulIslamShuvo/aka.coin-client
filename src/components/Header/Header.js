@@ -14,7 +14,7 @@ const Header = () => {
     const [user, loading, error] = useAuthState(auth);
 
     const navigate = useNavigate();
-    console.log(user);
+    // console.log(user);
 
     const logout = () => {
         signOut(auth);

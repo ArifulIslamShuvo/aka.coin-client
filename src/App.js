@@ -15,6 +15,7 @@ import Login from './components/Login/Login';
 import SignUp from './components/Login/SignUp';
 import ManageBanner from './components/Dashboard/ManageBanner';
 import ManageWallets from './components/Dashboard/ManageWallets';
+import InputBannerItem from './components/Dashboard/InputBannerItem';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard />}>
           <Route index element={<ManageBanner />} />
           <Route path='managewallets' element={<ManageWallets />}></Route>
+          <Route path='inputbanneritem' element={<InputBannerItem />}></Route>
         </Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
